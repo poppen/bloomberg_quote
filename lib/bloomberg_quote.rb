@@ -26,6 +26,8 @@ module BloombergQuote
         case @symbol
         when /:IND\Z/
           pull_index_data
+        when /:CUR\Z/
+          pull_currency_data
         end
       end
 
@@ -35,6 +37,19 @@ module BloombergQuote
         fetch_page
         return unless @doc.css('div.ticker_header > span.price').text.
           gsub(',','') =~ /(\d+\.?(?:\d+))/
+        @data["Price"] = $1.to_f
+
+        json = parse_json
+        @data["Previous Close"] = json["prev_close"].to_f
+        @data["Open"] = json["data_values"][0][1].to_f
+      end
+
+      def pull_currency_data
+        @data = {}
+
+        fetch_page
+        return unless @doc.css('div.ticker_header_currency > span.price').
+          text =~ /(\d+\.?(?:\d+))/
         @data["Price"] = $1.to_f
 
         json = parse_json
