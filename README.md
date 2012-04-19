@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ```ruby
 require 'bloomberg_quote'
-# Fetching MSCI KOKUSAI Index quote
+# Fetching TOPIX Index quote
 quote = BloombergQuote::Quote.new('TPX:IND')
 quote.valid?
 # => true
