@@ -1,6 +1,6 @@
 # BloombergQuote
 
-BloombergQuote is Ruby module which getting quotes form Bloomberg site
+BloombergQuote is Ruby module which getting quotes from Bloomberg site
 
 ## Installation
 
