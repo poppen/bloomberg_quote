@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = BloombergQuote::VERSION
   s.authors     = ["MATSUI Shinsuke"]
   s.email       = ["poppen.jp@gmail.com"]
-  s.homepage    = "https://github.com:poppen/bloomberg_quote.git"
+  s.homepage    = "https://github.com/poppen/bloomberg_quote"
   s.summary     = "getting quotes form Bloomberg site"
   s.description = "BloombergQuote is a module which getting quotes form Bloomberg site"
 
