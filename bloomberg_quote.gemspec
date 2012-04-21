@@ -5,11 +5,11 @@ require "bloomberg_quote/version"
 Gem::Specification.new do |s|
   s.name        = "bloomberg_quote"
   s.version     = BloombergQuote::VERSION
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["MATSUI Shinsuke"]
+  s.email       = ["poppen.jp@gmail.com"]
+  s.homepage    = "https://github.com:poppen/bloomberg_quote.git"
+  s.summary     = "getting quotes form Bloomberg site"
+  s.description = "BloombergQuote is a module which getting quotes form Bloomberg site"
 
   s.rubyforge_project = "bloomberg_quote"
 
