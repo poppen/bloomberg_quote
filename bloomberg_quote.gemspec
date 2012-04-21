@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["MATSUI Shinsuke"]
   s.email       = ["poppen.jp@gmail.com"]
   s.homepage    = "https://github.com/poppen/bloomberg_quote"
-  s.summary     = "getting quotes form Bloomberg site"
-  s.description = "BloombergQuote is a module which getting quotes form Bloomberg site"
+  s.summary     = "getting quotes from Bloomberg site"
+  s.description = "BloombergQuote is a module which getting quotes from Bloomberg site"
 
   s.rubyforge_project = "bloomberg_quote"
 
