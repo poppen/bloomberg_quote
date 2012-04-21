@@ -44,8 +44,9 @@ quote.valid?
 
 ## FAQ
 
-- Where can I find symbol?<br/>
-  You can seach symbol at [Bloomberg](http://www.bloomberg.com/)
+### Where can I find ticker symbols?
+
+You can search them at [Bloomberg](http://www.bloomberg.com/)
 
 ## Contributing
 
